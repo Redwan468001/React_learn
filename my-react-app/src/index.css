@@ -52,3 +52,31 @@
   color: #fff;
 }
 
+.cloak_container{
+  background-image: url('assets/bac.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.clock{
+  backdrop-filter: blur(5px);
+}
+.clock span{
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 5px 5px black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.component{
+  display: block;
+  padding: 10px;
+  border: 2px dashed black;
+}
+

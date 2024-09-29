@@ -1,11 +1,10 @@
-import MyCar from "./Car";
-import ToDoList from "./ToDoList";
+import ComponentA from "./component/ComponentA";
 
 function App() {
 
   return (
     <>
-      <ToDoList />
+      <ComponentA />
     </>
   );
   
